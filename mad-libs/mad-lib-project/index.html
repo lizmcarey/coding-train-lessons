@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>mad-lib-project</title>
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/p5.dom.js"></script>
+    <script src="libraries/p5.sound.js"></script>
+    <script src="sketch.js"></script>
+    <script src="libraries/tabletop.js" type="text/javascript"></script>
+    </script>
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    canvas {
+        margin: auto;
+    }
+    </style>
+</head>
+
+<body>
+    <h1>Google Sheets Mad Libs</h1>
+    <p>This pulls from the responses of a Google form. The spreadsheet is <a href="https://docs.google.com/spreadsheets/d/1spGlDz4srCR7rEenKYo1QEjmiQPKxTbqanxWqf5aAjw/edit?usp=sharing">here</a>. Responses are collected from a <a href="https://goo.gl/forms/dVikk7vuRGxOXq3u2">google form</a>. You can also just manually edit from the spreadsheet. </p>
+    <p>Below is the email text</p>
+    <p> Hi {{participant_name}},
+        This is {{researcher_name}} from Uber.
+        I was hoping we could speak about the research study we're running {{day_of_week}}, {{date}} in {{city}} that offers {{incentive}}. You had replied to my recent email by completing a form saying you were interested. Please let me know when is a good time to call you to confirm the research session. Thank you! </p>
+<!-- <p>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdCU46yJtDz7vvlXwesR9Ky0LGhUpgIeHCQUqHfkaVIghao-g/viewform?embedded=true" width="640" height="1010" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+</p> -->
+</body>
+
+</html>
